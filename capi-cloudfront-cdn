@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2022-02-22T16:43:50.666Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" version="16.6.2" etag="O7p_YFwPIh3pKUleDqoE" type="github"><diagram id="Ck8vjf54P-fYfERlx-k_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-22T17:12:30.441Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="TURIhPZvN-snI34khrkk" version="16.6.2" type="github">
+  <diagram id="Ck8vjf54P-fYfERlx-k_" name="Page-1">
+    <mxGraphModel dx="1102" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H_k--7myU3WAtjA6tPbR-9" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="200" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H_k--7myU3WAtjA6tPbR-17" value="&lt;span style=&quot;color: rgb(22 , 25 , 31) ; font-family: &amp;#34;monaco&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier prime&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; text-align: left ; background-color: rgb(242 , 243 , 243)&quot;&gt;http://api.taylorfrancis.com/content/some-id&lt;/span&gt;&lt;br&gt;&lt;br&gt;GET:&amp;nbsp; content-location" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="50" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="H_k--7myU3WAtjA6tPbR-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="80" as="sourcePoint" />
+            <mxPoint x="605" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H_k--7myU3WAtjA6tPbR-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="190" as="sourcePoint" />
+            <mxPoint x="120" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H_k--7myU3WAtjA6tPbR-22" value="returns cloudfront signed url with expiry and ip and address&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(22 , 25 , 31) ; font-family: &amp;#34;monaco&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier prime&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; text-align: left ; background-color: rgb(242 , 243 , 243)&quot;&gt;http://d111111abcdef8.cloudfront.net/index.html&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="180" width="336.3" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H_k--7myU3WAtjA6tPbR-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="340" as="sourcePoint" />
+            <mxPoint x="609.0699999999999" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H_k--7myU3WAtjA6tPbR-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="420" as="sourcePoint" />
+            <mxPoint x="120" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H_k--7myU3WAtjA6tPbR-26" value="&lt;span style=&quot;color: rgb(22 , 25 , 31) ; font-family: &amp;#34;monaco&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier prime&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; text-align: left ; background-color: rgb(242 , 243 , 243)&quot;&gt;http://d111111abcdef8.cloudfront.net/index.html&lt;/span&gt;&lt;br&gt;&lt;br&gt;Request content using the signed url" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="320" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H_k--7myU3WAtjA6tPbR-27" value="returns the content" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="233.15" y="420" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H_k--7myU3WAtjA6tPbR-30" value="Amazon VPC" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.vpc;" vertex="1" parent="1">
+          <mxGeometry x="630" y="70" width="110" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="H_k--7myU3WAtjA6tPbR-31" value="Amazon Cloudfront" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.cloudfront;" vertex="1" parent="1">
+          <mxGeometry x="640" y="320" width="110" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="H_k--7myU3WAtjA6tPbR-32" value="&amp;nbsp;Authorize request&lt;br&gt;and sign cloudfront url with expiration and ip address" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="90" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="H_k--7myU3WAtjA6tPbR-33" value="Verify expiration and ip address" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="755" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H_k--7myU3WAtjA6tPbR-44" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="480" as="sourcePoint" />
+            <mxPoint x="100" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H_k--7myU3WAtjA6tPbR-45" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="230" as="sourcePoint" />
+            <mxPoint x="620" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H_k--7myU3WAtjA6tPbR-46" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="460" as="sourcePoint" />
+            <mxPoint x="620" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
