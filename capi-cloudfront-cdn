@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-22T17:14:25.157Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="MhyC_Z5KsV0focnB49Kv" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-22T17:19:07.701Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="jjZUUGuEbtoADpJlixLA" version="16.6.2" type="github">
   <diagram id="Ck8vjf54P-fYfERlx-k_" name="Page-1">
     <mxGraphModel dx="1102" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -44,13 +44,13 @@
           <mxGeometry x="233.15" y="420" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="H_k--7myU3WAtjA6tPbR-31" value="Amazon Cloudfront" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.cloudfront;" vertex="1" parent="1">
-          <mxGeometry x="640" y="320" width="110" height="130" as="geometry" />
+          <mxGeometry x="630" y="320" width="110" height="130" as="geometry" />
         </mxCell>
         <mxCell id="H_k--7myU3WAtjA6tPbR-32" value="&amp;nbsp;Authorize request&lt;br&gt;and sign cloudfront url with expiration and ip address" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="745" y="70" width="90" height="110" as="geometry" />
         </mxCell>
         <mxCell id="H_k--7myU3WAtjA6tPbR-33" value="Verify expiration and ip address" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="755" y="330" width="80" height="80" as="geometry" />
+          <mxGeometry x="755" y="310" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="H_k--7myU3WAtjA6tPbR-44" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -72,6 +72,21 @@
         </mxCell>
         <mxCell id="H_k--7myU3WAtjA6tPbR-48" value="Amazon API Gateway" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.api_gateway;" vertex="1" parent="1">
           <mxGeometry x="630" y="70" width="110" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="H_k--7myU3WAtjA6tPbR-49" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="870" y="320" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="H_k--7myU3WAtjA6tPbR-51" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.991;exitY=0.546;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="H_k--7myU3WAtjA6tPbR-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="430" as="sourcePoint" />
+            <mxPoint x="870" y="391" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H_k--7myU3WAtjA6tPbR-52" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="H_k--7myU3WAtjA6tPbR-48" target="H_k--7myU3WAtjA6tPbR-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="695" y="220" as="sourcePoint" />
+            <mxPoint x="690" y="300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
